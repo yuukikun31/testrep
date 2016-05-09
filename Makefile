@@ -2,10 +2,10 @@
 #	
 
 #	You can set these variables from the command line.
-BUILDDIR       = build
-ASCIIDOCTOR   = asciidoctor
-ASCIIDOCTOR   = asciidoctor-pdf
-.PHONY: help clean html pdf
+BUILDDIR	=	build
+ASCIIDOCTOR	=	asciidoctor
+ASCIIDOCTOR	=	asciidoctor-pdf
+.PHONY:	help clean html pdf
 
 clean:
 	-rm -rf $(BUILDDIR)/*
