@@ -1,0 +1,12 @@
+== RedPen FAQ
+
+* RedPen は LaTeX に対応していますか。
++
+--
+はい、バージョン1.4から対応を開始しました。
+
+[source,bash]
+----
+$ redpen -c redpen-conf.xml -f latex content.tex
+----
+--
