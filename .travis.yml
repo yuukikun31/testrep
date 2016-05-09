@@ -1,7 +1,7 @@
 language: ruby
 
 rvm:
-  - 2 2.3.1p112
+  - 2.0.0-p598
 
 jdk:
     - oraclejdk8
